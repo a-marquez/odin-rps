@@ -5,9 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Odin Project Rock Paper Scissors </title>
+  <link rel="stylesheet" href="style.css">
   <script src="./main.js"></script>
 </head>
 <body>
-
+  <main>
+    <section>
+      <span>Computer: <span id="computer-choice"></span></span>
+      <span id="timestamp"></span>
+    </section>
+    <section class="buttons-menu">
+      <button onclick="playerThrow('Rock')">Rock</button>
+      <button onclick="playerThrow('Paper')">Paper</button>
+      <button onclick="playerThrow('Scissors')">Scissors</button>
+    </section>
+    <section>
+      <div>Round: <span id="outcome"></span></div>
+    </section>
+    <section>
+      <div>P1 Score: <span id="p1-score">0</span></div>
+      <div>CPU Score: <span id="cpu-score">0</span></div>
+    </section>
+  </main>
 </body>
 </html>

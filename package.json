@@ -1,0 +1,23 @@
+{
+  "name": "odin-rps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "vite serve .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-marquez/odin-rps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-marquez/odin-rps/issues"
+  },
+  "homepage": "https://github.com/a-marquez/odin-rps#readme",
+  "dependencies": {
+    "vite": "^4.0.1"
+  }
+}

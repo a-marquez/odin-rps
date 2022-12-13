@@ -1,0 +1,57 @@
+html,
+body {
+  background: linear-gradient(135deg, rgba(2,0,36,1) 25%, rgba(73,45,107,0.5740832018927444) 100%);
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  color: white;
+  background-color: rgba(255, 255, 255, .25);
+  border-radius: 5px;
+}
+
+section,
+button {
+  font-size: 1.5rem;
+}
+
+section {
+  margin: 1rem 0rem;
+  padding: 0rem 1rem;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-menu {
+  display: flex;
+  padding: 0px;
+}
+
+.buttons-menu button {
+  min-width: 150px;
+  flex: 1 1 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  border: 3px solid teal;
+  cursor: pointer;
+  padding: .5rem 0rem;
+}
+
+.buttons-menu button:active,
+.buttons-menu button:hover {
+  color: teal;
+}
